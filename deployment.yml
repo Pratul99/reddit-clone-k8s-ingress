@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: reddit-clone
-        image: pratulb/reddit-clone
+        image: pratulb/reddit-clone:latest
         ports:
         - containerPort: 3000
